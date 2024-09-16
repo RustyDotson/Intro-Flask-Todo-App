@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block head %} 
+<h1>YO WE NEED DATA TO SEND TO THE ZUCC!!!</h1>
+{% endblock %}
+
+{% block body %} 
+<h1>Update Task</h1>
+
+<form action="/update/{{task.id}}", method="POST">
+    <input type="text" name="content" id="content" value="{{task.content}}">
+    <input type="submit" value="Update">
+</form>
+
+{% endblock %}

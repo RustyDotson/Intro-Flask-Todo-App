@@ -1,0 +1,6 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+table, td, tr{ border: 2px solid #000000; border-collapse: collapse }
